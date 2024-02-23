@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cine UBAM</title>
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container1">
+            <h2 class="logotitulo1">Cine UBAM</h2>
+        </div>
+    </header>
+    <main>
+        <div>
+            <form action="#" method="post">
+                <input type="text" id="nombre" width="500px" height="80px" placeholder="Nombre:"/>
+                <br>
+                <input type="number" id="boleto" width="500px" height="80px" placeholder="Entradas:"/>
+                <br>
+                <button onclick="">Calcular Precio</button>
+                <br>
+                <label for="Precio">Total a pagar: </label>
+                <span id="Precio"></span><br>
+                <label class="pago">Pagar con:</label>
+                <select id="pago">
+                    <option>Selecciona una opción</option>
+                    <option value="tarjeta">Tarjeta</option>
+                    <option value="efectivo">Efectivo</option>
+                </select>
+                <br>
+                <button onclick="">Cambio</button>
+                <br>
+                <label for="Cambio">El cambio total es </label>
+                <span id="Cambio"></span><br>
+            </form>
+        </div>
+    </main>
+</body>

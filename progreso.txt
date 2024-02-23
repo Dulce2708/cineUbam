@@ -1,1 +1,5 @@
 Pruebas para el programa solicitado
+    1.- Agregué título a la página
+    2.- Agregué las categorías de las películas
+    3.- Agregué la página del formulario
+    4.- Agregué imagenes de las peliculas
